@@ -11,6 +11,7 @@ services:
       - DATA_DIR=${DATA_DIR-}
       - HOST_TMP_FOLDER=${TMPDIR:-/tmp/}localstack
       - DOCKER_HOST=unix:///var/run/docker.sock
+      - PROVIDER_OVERRIDE_LAMBDA=asf
     ports:
       - '4566-4587:4566-4587'
     volumes:

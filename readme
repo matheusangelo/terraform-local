@@ -1,1 +1,2 @@
 aws s3 list --endpoint-url http://localhost:4566
+aws lambda list-functions --endpoint-url http://localhost:4566

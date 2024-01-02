@@ -1,0 +1,1 @@
+aws lambda invoke --function-name myapp --endpoint-url http://localhost:4566 response.json
